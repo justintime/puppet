@@ -1,0 +1,3 @@
+localmounts
+
+This custom fact simply looks in /proc/mounts, and returns any mountpoint currently mounted to a device in /dev.  The reliance upon /proc limits this fact to Linux kernels.  Patches welcome!
